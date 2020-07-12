@@ -4,5 +4,6 @@ dependencies {
 
     testImplementation(project(":detekt-api"))
     testImplementation(project(":detekt-core"))
+    testImplementation(project(":detekt-parser"))
     testImplementation(project(":detekt-test"))
 }

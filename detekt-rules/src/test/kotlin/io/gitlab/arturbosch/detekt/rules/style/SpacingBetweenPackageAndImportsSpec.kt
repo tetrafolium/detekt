@@ -1,7 +1,7 @@
 package io.gitlab.arturbosch.detekt.rules.style
 
+import io.github.detekt.test.utils.compileContentForTest
 import io.gitlab.arturbosch.detekt.api.Config
-import io.github.detekt.test.utils.KtTestCompiler
 import io.gitlab.arturbosch.detekt.test.compileAndLint
 import io.gitlab.arturbosch.detekt.test.lint
 import org.assertj.core.api.Assertions.assertThat
@@ -51,19 +51,19 @@ class SpacingBetweenPackageAndImportsSpec : Spek({
 
             it("has no package declaration in script") {
                 val code = "import a.b\n\nprint(1)"
-                val ktsFile = KtTestCompiler.compileFromContent(code, "Test.kts")
+                val ktsFile = compileContentForTest(code, "Test.kts")
                 assertThat(subject.lint(ktsFile)).isEmpty()
             }
 
             it("has no package and import declaration in script") {
                 val code = "print(1)"
-                val ktsFile = KtTestCompiler.compileFromContent(code, "Test.kts")
+                val ktsFile = compileContentForTest(code, "Test.kts")
                 assertThat(subject.lint(ktsFile)).isEmpty()
             }
 
             it("has import declarations separated by new line in script") {
                 val code = "import a.b\n\nimport a.c\n\nprint(1)"
-                val ktsFile = KtTestCompiler.compileFromContent(code, "Test.kts")
+                val ktsFile = compileContentForTest(code, "Test.kts")
                 assertThat(subject.lint(ktsFile)).isEmpty()
             }
         }
