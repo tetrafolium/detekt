@@ -1,0 +1,22 @@
+---
+inspecode:
+
+  detekt:
+    thresholds: { num-issues: 999 }
+
+  fossology:
+    thresholds: { num-issues: 999 }
+
+  grep:
+    thresholds: { num-issues: 999 }
+
+  jscpd:
+    thresholds: { num-issues: 999 }
+
+  ktlint:
+    auto-fix: true
+    thresholds: { num-issues: 999 }
+
+  misspell:
+    auto-fix: true
+    thresholds: { num-issues: 999 }
