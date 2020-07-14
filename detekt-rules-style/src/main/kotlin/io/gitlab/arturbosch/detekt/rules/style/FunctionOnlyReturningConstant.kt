@@ -32,7 +32,7 @@ import org.jetbrains.kotlin.psi.psiUtil.containingClass
  * const val constantString = "1"
  * </compliant>
  *
- * @configuration ignoreOverridableFunction - if overriden functions should be ignored (default: `true`)
+ * @configuration ignoreOverridableFunction - if overridden functions should be ignored (default: `true`)
  * @configuration excludedFunctions - excluded functions (default: `'describeContents'`)
  * @configuration excludeAnnotatedFunction - allows to provide a list of annotations that disable this check
  * (default: `['dagger.Provides']`)
