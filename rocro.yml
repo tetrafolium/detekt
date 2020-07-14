@@ -14,6 +14,9 @@ inspecode:
     thresholds: { num-issues: 999 }
 
   ktlint:
+    options:
+      --disabled_rules:
+      - indent
     auto-fix: true
     thresholds: { num-issues: 999 }
 
