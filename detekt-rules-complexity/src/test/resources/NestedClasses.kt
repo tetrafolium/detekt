@@ -32,7 +32,6 @@ class NestedClasses {
                         }
                     }
                 } finally {
-
                 }
 
                 fun nestedLocalMethod() {
@@ -97,7 +96,6 @@ class NestedClasses {
             }
         }
     }
-
 }
 
 @Suppress("unused")

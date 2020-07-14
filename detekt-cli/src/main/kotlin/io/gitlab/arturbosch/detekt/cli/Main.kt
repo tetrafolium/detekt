@@ -2,7 +2,6 @@
 
 package io.gitlab.arturbosch.detekt.cli
 
-import io.gitlab.arturbosch.detekt.core.config.InvalidConfig
 import io.gitlab.arturbosch.detekt.cli.runners.AstPrinter
 import io.gitlab.arturbosch.detekt.cli.runners.ConfigExporter
 import io.gitlab.arturbosch.detekt.cli.runners.Executable
@@ -10,6 +9,7 @@ import io.gitlab.arturbosch.detekt.cli.runners.Runner
 import io.gitlab.arturbosch.detekt.cli.runners.SingleRuleRunner
 import io.gitlab.arturbosch.detekt.cli.runners.VersionPrinter
 import io.gitlab.arturbosch.detekt.core.NotApiButProbablyUsedByUsers
+import io.gitlab.arturbosch.detekt.core.config.InvalidConfig
 import java.io.PrintStream
 import kotlin.system.exitProcess
 

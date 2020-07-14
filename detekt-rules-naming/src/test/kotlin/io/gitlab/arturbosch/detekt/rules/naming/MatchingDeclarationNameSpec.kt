@@ -1,8 +1,8 @@
 package io.gitlab.arturbosch.detekt.rules.naming
 
+import io.github.detekt.test.utils.compileContentForTest
 import io.gitlab.arturbosch.detekt.test.TestConfig
 import io.gitlab.arturbosch.detekt.test.assertThat
-import io.github.detekt.test.utils.compileContentForTest
 import io.gitlab.arturbosch.detekt.test.lint
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe

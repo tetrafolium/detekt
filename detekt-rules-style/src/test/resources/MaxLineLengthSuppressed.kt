@@ -42,7 +42,6 @@ class MaxLineLengthSuppressed {
 
         println(hello)
         println(loremIpsum)
-
     }
 
     fun anIncrediblyLongAndComplexMethodNameThatProbablyShouldBeMuchShorterButForTheSakeOfTheTestItsNot(): String {

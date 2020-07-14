@@ -6,8 +6,8 @@ import io.github.detekt.test.utils.createTempFileForTest
 import io.github.detekt.test.utils.resource
 import io.github.detekt.test.utils.resourceAsPath
 import io.gitlab.arturbosch.detekt.cli.BuildFailure
-import io.gitlab.arturbosch.detekt.core.config.InvalidConfig
 import io.gitlab.arturbosch.detekt.cli.createCliArgs
+import io.gitlab.arturbosch.detekt.core.config.InvalidConfig
 import org.assertj.core.api.Assertions.assertThat
 import org.assertj.core.api.Assertions.assertThatCode
 import org.assertj.core.api.Assertions.assertThatThrownBy

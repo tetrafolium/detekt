@@ -1,8 +1,5 @@
 package io.gitlab.arturbosch.detekt.core
 
-import io.gitlab.arturbosch.detekt.api.internal.isSuppressedBy
-import io.gitlab.arturbosch.detekt.core.rules.visitFile
-import io.gitlab.arturbosch.detekt.test.TestConfig
 import io.github.detekt.test.utils.compileContentForTest
 import io.github.detekt.test.utils.compileForTest
 import io.github.detekt.test.utils.resourceAsPath
@@ -16,6 +13,9 @@ import io.gitlab.arturbosch.detekt.api.MultiRule
 import io.gitlab.arturbosch.detekt.api.Rule
 import io.gitlab.arturbosch.detekt.api.RuleSet
 import io.gitlab.arturbosch.detekt.api.Severity
+import io.gitlab.arturbosch.detekt.api.internal.isSuppressedBy
+import io.gitlab.arturbosch.detekt.core.rules.visitFile
+import io.gitlab.arturbosch.detekt.test.TestConfig
 import io.gitlab.arturbosch.detekt.test.lint
 import io.gitlab.arturbosch.detekt.test.yamlConfig
 import org.assertj.core.api.Assertions.assertThat

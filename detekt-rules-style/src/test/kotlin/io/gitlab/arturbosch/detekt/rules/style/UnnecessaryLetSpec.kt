@@ -53,7 +53,7 @@ class UnnecessaryLetSpec : Spek({
             assertThat(findings).allMatch { it.message == MESSAGE_OMIT_LET }
         }
 
-        it("reports unnecessary lets that can be changed to ordinary method call 5" ) {
+        it("reports unnecessary lets that can be changed to ordinary method call 5") {
             val findings = subject.compileAndLint("""
                 fun f() {
                     val a: Int = 1

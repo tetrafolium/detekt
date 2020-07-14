@@ -24,7 +24,7 @@ class C {
     }
 
     fun usesAllowedNames() {
-        for ((index, _) in mapOf(0 to 0, 1 to 1, 2 to 2)) {  // unused but allowed name
+        for ((index, _) in mapOf(0 to 0, 1 to 1, 2 to 2)) { // unused but allowed name
             println(index)
         }
         try {

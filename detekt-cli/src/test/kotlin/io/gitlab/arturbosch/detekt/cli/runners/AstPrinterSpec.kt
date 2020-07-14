@@ -1,8 +1,8 @@
 package io.gitlab.arturbosch.detekt.cli.runners
 
-import io.gitlab.arturbosch.detekt.cli.CliArgs
 import io.github.detekt.test.utils.NullPrintStream
 import io.github.detekt.test.utils.resource
+import io.gitlab.arturbosch.detekt.cli.CliArgs
 import org.assertj.core.api.Assertions.assertThat
 import org.assertj.core.api.Assertions.assertThatIllegalArgumentException
 import org.spekframework.spek2.Spek

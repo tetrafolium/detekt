@@ -1,11 +1,11 @@
 package io.gitlab.arturbosch.detekt.rules.empty
 
+import io.github.detekt.test.utils.compileForTest
+import io.github.detekt.test.utils.resourceAsPath
 import io.gitlab.arturbosch.detekt.api.Config
 import io.gitlab.arturbosch.detekt.api.Rule
 import io.gitlab.arturbosch.detekt.test.TestConfig
 import io.gitlab.arturbosch.detekt.test.compileAndLint
-import io.github.detekt.test.utils.compileForTest
-import io.github.detekt.test.utils.resourceAsPath
 import io.gitlab.arturbosch.detekt.test.lint
 import org.assertj.core.api.Assertions.assertThat
 import org.assertj.core.api.Assertions.assertThatExceptionOfType
